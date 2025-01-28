@@ -1,9 +1,3 @@
-<%-- 
-    Document   : logout
-    Created on : Nov 15, 2024, 1:05:47 PM
-    Author     : TEJAS
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%!
     public String isBlankNull(String str) {
