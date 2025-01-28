@@ -13,6 +13,6 @@
 <%
     session.removeAttribute("UserId");
     session.removeAttribute("UserName");
-    response.sendRedirect("Home");
+    response.sendRedirect("Login");
     
 %>
