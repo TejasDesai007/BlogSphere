@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts  
+Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">  
+
+<struts>
+    <constant name="struts.devMode" value="true" />	
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="Home">
+            <result>index.jsp</result>
+        </action>
+        <action name="Register">
+            <result>Registration.jsp</result>
+        </action>
+        <action name="saveRegUser">
+            <result>saveRegUser.jsp</result>
+        </action>
+        <action name="Login">
+            <result>Login.jsp</result>
+        </action>
+        <action name="ValidateCredentials">
+            <result>ValidateCredentials.jsp</result>
+        </action>
+        <action name="Logout">
+            <result>logout.jsp</result>
+        </action>
+        <action name="SearchBlog">
+            <result>PostInner.jsp</result>
+        </action>
+        
+        
+        <action name="AddPost" >
+            <result>/Posts/AddPost.jsp</result>
+        </action>
+        <action name="AddPostTo" >
+            <result>/Posts/savePosts.jsp</result>
+        </action>
+        <action name="viewPost">
+            <result>/Posts/Post.jsp</result>
+        </action>
+        <action name="DeleteBlog">
+            <result>/Posts/DeleteBlog.jsp</result>
+        </action>
+        
+        
+        
+        
+    </package>
+</struts>
